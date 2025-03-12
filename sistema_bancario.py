@@ -41,7 +41,7 @@ while True:
         
         elif valor > 0:
             saldo -= valor
-            extrato += f"Saque: R$ {valor:.f}\n"
+            extrato += f"Saque: R$ {valor:.2f}\n"
             numero_saque += 1
 
         else:

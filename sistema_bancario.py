@@ -22,7 +22,7 @@ while True:
             saldo += valor
             extrato += f"Deposito: R$ {valor:.2f}\n"
             print("\n========== DEPOSITO CONCLUIDO ==========")
-            print(f"\nValor depositado R$ {saldo:.2F}\n")
+            print(f"\nValor depositado R$ {saldo:.2f}\n")
             print("========================================")
 
         else:
